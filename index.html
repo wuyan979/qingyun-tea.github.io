@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>清韵茶坊 - 传承中国茶文化</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑",sans-serif;
+        }
+        body{
+            background-color: #f7f5f0;
+            color: #333;
+        }
+        header{
+            background-color: #2c5f48;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo{
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav{
+            background-color: #3d755a;
+            text-align: center;
+            padding: 12px 0;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-size: 16px;
+        }
+        nav a:hover{
+            color: #f9e4b7;
+        }
+        .banner{
+            height: 380px;
+            background: url('https://pic.616pic.com/photo/pic_360/1615/16151515.jpg') center center no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 42px;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .container{
+            width: 1200px;
+            margin: 30px auto;
+            display: flex;
+            gap: 20px;
+        }
+        .main{ flex: 3; }
+        .sidebar{ flex: 1; }
+        .box{
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .box h2{
+            color: #2c5f48;
+            margin-bottom: 15px;
+            border-left: 5px solid #2c5f48;
+            padding-left: 10px;
+        }
+        .box p{
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+        .tea-list{
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .tea-item{
+            flex: 1;
+            text-align: center;
+        }
+        .tea-item img{
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        footer{
+            background-color: #2c5f48;
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">清韵茶坊</div>
+    </header>
+
+    <nav>
+        <a href="index.html">首页</a>
+        <a href="tea.html">茶叶种类</a>
+        <a href="knowledge.html">品茶知识</a>
+        <a href="tools.html">茶具鉴赏</a>
+        <a href="about.html">关于我们</a>
+    </nav>
+
+    <div class="banner">一叶知茶 · 一品清心</div>
+
+    <div class="container">
+        <div class="main">
+            <div class="box">
+                <h2>茶文化介绍</h2>
+                <p>中国是茶的故乡，茶文化历经千年，融入礼仪、养生、艺术于一体，是东方文化的重要瑰宝。</p>
+                <p>茶可清心、可养生、可会友，一杯清茶，品人生百味。</p>
+            </div>
+            <div class="box">
+                <h2>经典名茶</h2>
+                <div class="tea-list">
+                    <div class="tea-item"><img src="https://img1.baidu.com/it/u=285065329,2133202020&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750" alt="绿茶"><p>绿茶</p></div>
+                    <div class="tea-item"><img src="https://img0.baidu.com/it/u=2586212266,1601651119&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750" alt="红茶"><p>红茶</p></div>
+                    <div class="tea-item"><img src="https://img2.baidu.com/it/u=82126921,3210111210&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750" alt="乌龙茶"><p>乌龙茶</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="box"><h2>品茶小技巧</h2><p>1. 水温根据茶类调整</p><p>2. 先闻香，再品味</p><p>3. 小口慢饮，回甘更浓</p></div>
+            <div class="box"><h2>茶道精神</h2><p>和、静、怡、真</p><p>以茶修身，以茶养德</p></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>清韵茶坊 © 2026 版权所有 | 茶文化网站实验项目</p>
+    </footer>
+</body>
+</html>
