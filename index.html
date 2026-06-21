@@ -3,148 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>清韵茶坊 - 传承中国茶文化</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: "微软雅黑",sans-serif;
-        }
-        body{
-            background-color: #f7f5f0;
-            color: #333;
-        }
-        header{
-            background-color: #2c5f48;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .logo{
-            font-size: 32px;
-            font-weight: bold;
-            letter-spacing: 2px;
-        }
-        nav{
-            background-color: #3d755a;
-            text-align: center;
-            padding: 12px 0;
-        }
-        nav a{
-            color: white;
-            text-decoration: none;
-            margin: 0 18px;
-            font-size: 16px;
-        }
-        nav a:hover{
-            color: #f9e4b7;
-        }
-        .banner{
-            height: 380px;
-            background: url('https://pic.616pic.com/photo/pic_360/1615/16151515.jpg') center center no-repeat;
-            background-size: cover;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 42px;
-            font-weight: bold;
-            text-shadow: 0 0 10px rgba(0,0,0,0.5);
-        }
-        .container{
-            width: 1200px;
-            margin: 30px auto;
-            display: flex;
-            gap: 20px;
-        }
-        .main{ flex: 3; }
-        .sidebar{ flex: 1; }
-        .box{
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        .box h2{
-            color: #2c5f48;
-            margin-bottom: 15px;
-            border-left: 5px solid #2c5f48;
-            padding-left: 10px;
-        }
-        .box p{
-            line-height: 1.8;
-            margin-bottom: 10px;
-        }
-        .tea-list{
-            display: flex;
-            gap: 15px;
-            margin-top: 15px;
-        }
-        .tea-item{
-            flex: 1;
-            text-align: center;
-        }
-        .tea-item img{
-            width: 100%;
-            height: 160px;
-            object-fit: cover;
-            border-radius: 6px;
-        }
-        footer{
-            background-color: #2c5f48;
-            color: white;
-            text-align: center;
-            padding: 25px 0;
-            margin-top: 30px;
-        }
-    </style>
+    <title>首页 - 清韵茶坊</title>
+    <meta name="description" content="传承中国茶文化，展示茶叶、茶具、品茶知识与互动功能。">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <div class="topbar">
+        <div class="wrap"><span>《网站设计与开发》课程综合实验作品</span><span>文化艺术类 · 茶文化主题网站</span></div>
+    </div>
     <header>
-        <div class="logo">清韵茶坊</div>
+        <div class="wrap header-inner">
+            <a class="brand" href="index.html"><span class="brand-mark">茶</span><span>清韵茶坊</span></a>
+            <div class="header-actions" data-user-area></div>
+        </div>
+        <nav><div class="wrap nav-inner"><a href="index.html" class="active">首页</a>
+<a href="tea.html" class="">茶叶种类</a>
+<a href="knowledge.html" class="">品茶知识</a>
+<a href="tools.html" class="">茶具鉴赏</a>
+<a href="culture.html" class="">茶史文化</a>
+<a href="brewing.html" class="">冲泡指南</a>
+<a href="health.html" class="">茶与养生</a>
+<a href="ceremony.html" class="">茶礼茶俗</a>
+<a href="search.html" class="">站内搜索</a>
+<a href="about.html" class="">项目说明</a></div></nav>
     </header>
-
-    <nav>
-        <a href="index.html">首页</a>
-        <a href="tea.html">茶叶种类</a>
-        <a href="knowledge.html">品茶知识</a>
-        <a href="tools.html">茶具鉴赏</a>
-        <a href="about.html">关于我们</a>
-    </nav>
-
-    <div class="banner">一叶知茶 · 一品清心</div>
-
-    <div class="container">
-        <div class="main">
-            <div class="box">
-                <h2>茶文化介绍</h2>
-                <p>中国是茶的故乡，茶文化历经千年，融入礼仪、养生、艺术于一体，是东方文化的重要瑰宝。</p>
-                <p>茶可清心、可养生、可会友，一杯清茶，品人生百味。</p>
-            </div>
-            <div class="box">
-                <h2>经典名茶</h2>
-                <div class="tea-list">
-                    <div class="tea-item"><img src="https://img1.baidu.com/it/u=285065329,2133202020&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750" alt="绿茶"><p>绿茶</p></div>
-                    <div class="tea-item"><img src="https://img0.baidu.com/it/u=2586212266,1601651119&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750" alt="红茶"><p>红茶</p></div>
-                    <div class="tea-item"><img src="https://img2.baidu.com/it/u=82126921,3210111210&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=750" alt="乌龙茶"><p>乌龙茶</p></div>
+    <section class="hero">
+        <div class="wrap hero-grid">
+            <div>
+                <h1>首页</h1>
+                <p>传承中国茶文化，展示茶叶、茶具、品茶知识与互动功能。</p>
+                <div class="pill-row">
+                    <a class="btn gold" href="tea.html">浏览茶类</a>
+                    <a class="btn secondary" href="search.html">站内搜索</a>
                 </div>
             </div>
+            <div class="hero-card"><div class="steam"></div></div>
+        </div>
+    </section>
+    <main class="wrap">
+
+        <section class="section-title"><small>PROJECT FEATURES</small><h2>网站完善内容</h2></section>
+        <div class="grid cols-4">
+            <div class="card feature"><h3>多页面结构</h3><p>由原有 5 个页面扩展为 15 个页面以上，覆盖茶类、茶史、养生、礼俗和项目说明。</p></div>
+            <div class="card feature"><h3>统一视觉设计</h3><p>采用茶绿、米白与金色搭配，增强课程作品的整体性和美观度。</p></div>
+            <div class="card feature"><h3>交互功能</h3><p>加入注册登录、站内搜索、留言展示、会员中心等浏览器本地功能。</p></div>
+            <div class="card feature"><h3>后台演示</h3><p>通过 localStorage 模拟茶叶资料的添加、查询、修改、删除流程。</p></div>
+        </div>
+        <section class="section-title"><small>CLASSIC TEA</small><h2>经典名茶导览</h2></section>
+        <div class="grid cols-3">
+            <div class="card with-image"><img class="tea-photo" src="assets/images/longjing.jpg" alt="西湖龙井茶"><h3>西湖龙井</h3><p>色绿、香郁、味甘、形美，适合 80℃ 左右水温冲泡。</p><span class="tag">绿茶</span><span class="tag">杭州</span></div>
+            <div class="card with-image"><img class="tea-photo" src="assets/images/keemun.jpg" alt="祁门红茶"><h3>祁门红茶</h3><p>茶汤红艳明亮，滋味甜醇，具有独特的花果香。</p><span class="tag">红茶</span><span class="tag">安徽</span></div>
+            <div class="card with-image"><img class="tea-photo" src="assets/images/wuyi-rock-tea.jpg" alt="武夷岩茶"><h3>武夷岩茶</h3><p>兼具岩骨与花香，适合高温快冲，层次丰富。</p><span class="tag">乌龙茶</span><span class="tag">福建</span></div>
         </div>
 
-        <div class="sidebar">
-            <div class="box"><h2>品茶小技巧</h2><p>1. 水温根据茶类调整</p><p>2. 先闻香，再品味</p><p>3. 小口慢饮，回甘更浓</p></div>
-            <div class="box"><h2>茶道精神</h2><p>和、静、怡、真</p><p>以茶修身，以茶养德</p></div>
-        </div>
-    </div>
-
+    </main>
     <footer>
-        <p>清韵茶坊 © 2026 版权所有 | 茶文化网站实验项目</p>
+        <div class="wrap footer-grid">
+            <div>
+                <h3>清韵茶坊</h3>
+                <p>以茶文化为主题的课程实验网站，包含展示、检索、会员、留言与后台管理演示。</p>
+            </div>
+            <div class="footer-links">
+                <a href="sitemap.html">网站结构</a>
+                <a href="login.html">登录</a>
+                <a href="register.html">注册</a>
+                <a href="admin.html">后台演示</a>
+            </div>
+        </div>
     </footer>
-    <div style="text-align:center; margin-top:20px; color:#5a5a4a; font-size:14px;">
-    访问人数：<span id="busuanzi_value_page_pv"></span> 人
-</div>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
